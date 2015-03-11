@@ -1,5 +1,5 @@
 /*
-	Copyright 2015 Adejair Júnior
+	Copyright 2015 Adejair JÃºnior
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@
 #include "main.h"
 #include "resources.h"
 
-typedef void (*logprintf_t)(char* format, ...);
 logprintf_t logprintf;
 extern void *pAMXFunctions;
 
