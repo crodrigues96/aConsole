@@ -27,4 +27,6 @@
 //----
 #define AUTOR_PLUGIN					"Adejair Júnior"
 //----
+typedef void (*logprintf_t)(char* format, ...);
+extern logprintf_t logprintf;
 // #endif
