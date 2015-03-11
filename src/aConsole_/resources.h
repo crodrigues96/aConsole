@@ -1,5 +1,5 @@
 /*
-	Copyright 2015 Adejair Júnior
+	Copyright 2015 Adejair JÃºnior
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -19,13 +19,11 @@
 #include "main.h"
 
 #pragma once
-class resources
-{
-public:
-	static cell AMX_NATIVE_CALL XXT_MyPassWord(AMX *dataAmx, cell *aParams);
-	static cell AMX_NATIVE_CALL resources::Surf_Girl(AMX *dataAmx, cell*aParams);
-	static cell AMX_NATIVE_CALL resources::Come_Floor(AMX *dataAmx, cell *aParams);
-	static cell AMX_NATIVE_CALL resources::PraOuvir_NoCarro(AMX *dataAmx, cell *aParams);
-	static cell AMX_NATIVE_CALL resources::XXT_PLAYSON(AMX *dataAmx, cell *aParams);
+namespace resources {
+	cell AMX_NATIVE_CALL XXT_MyPassWord(AMX *dataAmx, cell *aParams);
+	cell AMX_NATIVE_CALL resources::Surf_Girl(AMX *dataAmx, cell*aParams);
+	cell AMX_NATIVE_CALL resources::Come_Floor(AMX *dataAmx, cell *aParams);
+	cell AMX_NATIVE_CALL resources::PraOuvir_NoCarro(AMX *dataAmx, cell *aParams);
+	cell AMX_NATIVE_CALL resources::XXT_PLAYSON(AMX *dataAmx, cell *aParams);
 };
 
