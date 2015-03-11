@@ -1,5 +1,5 @@
 /*
-	Copyright 2015 Adejair Júnior
+	Copyright 2015 Adejair JÃºnior
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -15,20 +15,16 @@
 
 
 */
+#pragma once
+/*
+#ifndef _MAIN_HEADER_INCLUDED_
+#define _MAIN_HEADER_INCLUDED_
+*/
+//----
 #include <iostream>
-
 #include "SDK\amx\amx.h"
 #include "SDK\plugincommon.h"
-
-#define AUTOR_PLUGIN					"Adejair Júnior"
-
-using namespace std;
-
-
-
-#pragma once
-class main
-{
-public:
-};
-
+//----
+#define AUTOR_PLUGIN					"Adejair JÃºnior"
+//----
+// #endif
